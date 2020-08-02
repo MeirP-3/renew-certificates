@@ -1,0 +1,21 @@
+ca: 
+
+  cert: ./x509/root-ca/root-ca.crt
+  
+  key: ./x509/root-ca/private/root-ca.key
+
+bastion: 23.23.26.144
+
+hosts:
+
+- host: 172.31.53.118
+
+  certs_dir: /home/ubuntu/x509_certs
+
+  user: ubuntu
+
+# - host: h2.example.com
+
+#   certs_dir: /etc/auth_certs/
+
+#   user: ubuntu
