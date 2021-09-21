@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "node-forge": "^0.9.1",
-    "ssh2": "^0.8.9",
+    "ssh2": "^1.4.0",
     "yaml": "^1.10.0"
   },
   "devDependencies": {
